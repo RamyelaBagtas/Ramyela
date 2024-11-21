@@ -1,0 +1,79 @@
+
+.seller-container {
+    color: #333;
+    margin-top: -720px;
+    margin-left: 275px;
+    }
+    
+    .seller-container h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #d9534f;
+    }
+    
+    .error-message {
+      color: #d9534f;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    
+    .warning-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    
+    .warning-table th, .warning-table td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .warning-table th {
+      background-color: #f5f5f5;
+      font-weight: bold;
+    }
+    
+    .warning-table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    .warning-table img {
+      border-radius: 5px;
+      object-fit: cover;
+      width: 50px;
+      height: 50px;
+    }
+    
+    .warning {
+      color: #d9534f;
+      font-weight: bold;
+    }
+    
+    .warning-table td {
+      font-size: 14px;
+    }
+    
+    .warning-table th, .warning-table td {
+      border: 1px solid #ddd;
+    }
+    
+    .warning-table tbody tr:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .warning-table td img {
+      display: block;
+      margin: auto;
+    }
+    
+    .warning-table .warning {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .warning-table td p.warning {
+      margin: 0;
+    }
+  

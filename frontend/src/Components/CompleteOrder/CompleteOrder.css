@@ -1,0 +1,129 @@
+.inventory-container {
+  max-width: 1400px;
+  margin-top: -860px;
+  margin-left: 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inventory-container form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inventory-container form label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.inventory-container form input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.inventory-container form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inventory-container form button:hover {
+  background-color: #0056b3;
+}
+
+.inventory-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.inventory-container ul li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.inventory-container ul li p {
+  margin: 0 10px;
+  flex: 1;
+}
+
+.inventory-container ul li .images {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.inventory-container .totall {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.inventory-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.warning {
+  color: red; /* Red color for warning messages */
+  font-weight: bold; /* Bold text */
+}
+@media(max-width: 1580px){
+  .inventory-container {
+    max-width: 1400px;
+    margin-top: -715px;
+    margin-left: 280px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}

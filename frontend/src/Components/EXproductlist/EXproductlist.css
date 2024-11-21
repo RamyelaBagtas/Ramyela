@@ -1,0 +1,73 @@
+.view-products-container {
+    max-width: 1200px;
+    margin-top: -1000px;
+    margin-left: 270px;
+    padding: 20px;
+  }
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .products-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px 15px;
+    border: none; /* Remove borders from individual cells */
+  }
+  
+  .product-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    border-bottom: 2px solid #ddd; /* Add border only to bottom */
+  }
+  
+  .product-table tbody tr {
+    border-bottom: 1px solid #ddd; /* Add border only to bottom of each row */
+  }
+  
+  .product-table img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .btn-delete {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .btn-delete:hover {
+    transform: scale(1.2);
+  }
+  .expiring-soon {
+    background-color: #ffdddd; /* Light red background */
+    color: #d8000c; /* Red text color */
+  }
+  
+  .expiration-warning {
+    display: block;
+    color: #d8000c; /* Red text color */
+    font-weight: bold;
+  }

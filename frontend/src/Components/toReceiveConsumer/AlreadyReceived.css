@@ -1,0 +1,28 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+  }
+  
+  .btn-shipped-orders {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .btn-shipped-orders:hover {
+    text-decoration: underline rgb(0, 116, 211);
+    text-decoration-thickness: 10px;
+  }
+  
+  /* Active state for the selected button */
+  .btn-shipped-orders.active {
+    text-decoration: underline rgb(0, 116, 211);
+    text-decoration-thickness: 10px;
+  }
+  

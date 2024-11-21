@@ -1,0 +1,99 @@
+/* Pages/CSS/LoginSignup.css */
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: linear-gradient(180deg, #7895B2, #e1ffea22 60%);
+    display: flex;
+}
+
+.login-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-field, .input-fields {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-field label, .input-fields label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-field input, .input-fields input, .input-fields select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-fields select {
+    cursor: pointer;
+}
+
+.input-field-buttonlgn, .input-fields-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1B3C73;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.input-field-buttonlgn:hover, .input-fields-button:hover {
+    background-color: white;
+    border: 1px solid #1B3C73;
+}
+
+.p {
+    margin-top: 20px;
+    cursor: pointer;
+    color: #1B3C73;
+}
+
+.p:hover {
+    text-decoration: underline;
+}
+.signup-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 800px;
+    text-align: center;
+}
+.error-text {
+    color: #d9534f; /* Bootstrap's danger color */
+    background-color: #f2dede; /* Light red background */
+    border: 1px solid #ebccd1; /* Border color */
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px; /* Adjust font size as needed */
+}

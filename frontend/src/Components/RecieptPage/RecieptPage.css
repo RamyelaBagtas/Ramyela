@@ -1,0 +1,105 @@
+/* ReceiptPage.css */
+.receipt-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.receipt-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.receipt-container h2 {
+  font-size: 1.8em;
+  margin-top: 30px;
+  color: #333;
+}
+
+.receipt-container h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #333;
+}
+
+.receipt-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 2px;
+}
+
+.receipt-container table th,
+.receipt-container table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  color: black;
+}
+
+.receipt-container table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.receipt-container table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.receipt-container table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.receipt-container .product-image {
+  max-width: 100px;
+  height: auto;
+}
+
+.address-summary {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
+
+.address-summary p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.totals-summary {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Add space between buttons */
+  margin-top: 30px;
+}
+
+.back-button,
+.save-button {
+  background-color: #1B3C73;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.back-button:hover,
+.save-button:hover {
+  background-color: white;
+  border: 1px solid #1B3C73;
+}

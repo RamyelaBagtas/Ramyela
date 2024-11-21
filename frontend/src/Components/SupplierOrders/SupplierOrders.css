@@ -1,0 +1,120 @@
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center; /* Centers the text horizontally */
+    display: flex;
+    justify-content: center; /* Centers content horizontally if needed */
+    align-items: center; /* Centers content vertically if necessary */
+    gap: 10px; /* Optional: Add space between the icon and the text */
+    margin: 20px 0; /* Optional: Add some margin for spacing */
+  }
+  
+  /* Optional: Adjust styling for the back arrow inside h1 */
+  .back-arrow {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; /* Space between arrow and text */
+  }
+  
+  .order-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .order-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .product-image img {
+    border-radius: 4px;
+  }
+  
+  .product-info {
+    font-size: 16px;
+  }
+  
+/* SupplierOrders.css */
+
+.order-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .order-buttons button {
+    padding: 10px 20px; /* Add padding to make the buttons look the same size */
+    font-size: 16px; /* Ensure the font size is consistent */
+    border-radius: 5px; /* Optional: add rounded corners */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    transition: background-color 0.3s ease; /* Optional: for a smooth hover effect */
+    width: 150px; /* Set the same width for both buttons */
+  }
+  
+  .accept-button {
+    background-color: #4CAF50; /* Green color for Accept */
+    color: white; /* Text color */
+    border: none;
+  }
+  
+  .cancel-button {
+    background-color: #f44336; /* Red color for Cancel */
+    color: white; /* Text color */
+    border: none;
+  }
+  
+  .accept-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .cancel-button:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  .message-input {
+  position: fixed;  /* Ensure it appears in front of other content */
+  bottom: 20px;  /* Position it at the bottom */
+  left: 50%;  /* Center it horizontally */
+  transform: translateX(-50%);  /* Center the element */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;  /* Adjust width as needed */
+  max-width: 500px;  /* Optional: Set a max-width for better layout */
+  z-index: 1000;  /* Make sure it is on top of other elements */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for emphasis */
+}
+
+.send-message {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+}
+
+.send-message:hover {
+  background-color: #45a049;
+}
+
+.send-message:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

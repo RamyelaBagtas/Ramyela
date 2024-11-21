@@ -1,0 +1,125 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align elements at the edges */
+    padding: 16px 32px; /* Adjust padding for better spacing */
+    box-shadow: 0 1px 3px -2px black;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 250px; /* Adjust the width of the shop logo */
+    height: auto;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust gap for better spacing */
+}
+
+.nav-icons .logout {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: #1B3C73;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-icons .logout:hover {
+    background-color: #1B3C73;
+    color: white;
+}
+
+.nav-icons .profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icons .profile {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icons .user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.nav-icons .user-info span {
+    display: block;
+}
+.nav-icons .profile {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icons .profile-pic {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    border-radius: 50%; /* Optional: for round profile pictures */
+    object-fit: cover; /* Ensures the image fits the container */
+}
+
+.nav-icons .user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.nav-icons .user-info span {
+    display: block;
+    margin: 2px 0; /* Adjust spacing as needed */
+}
+
+.nav-icons .profile img {
+    width: 50px; /* Adjust the width of the profile icon */
+    height: 50px; /* Adjust the height of the profile icon */
+    border-radius: 50%; /* Make the profile icon circular */
+    cursor: pointer;
+    border: 1px solid black;
+}
+.nav-icons .dropdown{
+    margin-left: -50px;
+}
+.nav-icons .profile:hover .dropdown {
+    display: block;
+}
+
+.nav-icons .profile .dropdown {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1B3C73;
+    padding: 20px 10px;
+    width: 200px;
+    text-align: center;
+    display: none;
+    z-index: 1; /* Ensure the dropdown is on top */
+}
+
+.nav-icons .profile .dropdown button {
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-icons .profile .dropdown button:hover {
+    background-color: white;
+    color: #1B3C73;
+}

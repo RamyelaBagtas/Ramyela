@@ -1,0 +1,87 @@
+/* Container for the entire product display */
+.product-display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the product image */
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  /* Styling for product information */
+  .product-info {
+    text-align: center;
+  }
+  
+  .product-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    color: #555555;
+    margin: 10px 0;
+  }
+  
+  /* Specific styles for category, price, stock, and description */
+  .product-info .category strong,
+  .product-info .price strong,
+  .product-info .quantity strong,
+  .product-info .stock strong,
+  .product-info .description strong {
+    color: #444;
+  }
+  
+  .product-info .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e53935;
+  }
+  
+  .product-info .stock {
+    color: #4caf50;
+  }
+  
+  /* Styling for the supplier information */
+  .product-supplier-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777777;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Loading message style */
+  .product-info p.loading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #999999;
+  }
+  
+  /* Reseller Navbar */
+  .reseller-navbar {
+    background-color: #3f51b5;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
+  

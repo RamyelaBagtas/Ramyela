@@ -1,0 +1,75 @@
+.userorder{
+  max-width: 1200px;
+  margin-top: -960px;
+  margin-left: 300px;
+  padding: 20px;
+} 
+  .userorder button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #1B3C73;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .userorder button[type="submit"]:hover {
+    color: #1B3C73;
+    border: 1px solid white;
+  }
+  
+  
+  .userorder button {
+    padding: 5px 10px;
+    background-color: #1B3C73;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .userorder button:hover {
+    background-color: white;
+    border: 1px solid #1B3C73;
+  }
+  .userorder .cancel-btn-now{
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .userorder .cancel-button-gg{
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .cancel-form {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.cancellation-reasons {
+    margin-bottom: 15px;
+}
+
+.cancellation-reasons label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cancellation-reasons input[type="checkbox"] {
+    margin-right: 10px;
+}
+@media(max-width: 1580px){
+.userorder{
+  max-width: 1200px;
+  margin-top: -760px;
+  margin-left: 250px;
+  padding: 20px;
+}
+}

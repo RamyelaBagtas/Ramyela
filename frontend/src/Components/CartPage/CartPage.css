@@ -1,0 +1,158 @@
+/* Cart Page CSS */
+
+.cart-container {
+  padding: 20px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto; /* Center align the cart container */
+}
+
+.cart-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-container th,
+.cart-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.cart-container img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.quantity-buttons button {
+  margin: 0 5px;
+}
+
+.remove-button {
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
+
+.remove-button:hover {
+  color: red;
+}
+
+.cart-total {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cart-total h2 {
+  margin: 10px 0;
+}
+
+.cart-total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  justify-content: baseline;
+}
+
+.cart-total-container h3,
+.cart-total-container p {
+  margin: 10px 0;
+}
+
+.cart-total-container p {
+  text-align: center;
+}
+
+.proceed-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #1B3C73;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.proceed-button:hover {
+  background-color: white;
+  color: #1B3C73;
+  border: 1px solid #1B3C73;
+}
+
+.default-address {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For laptops and larger devices */
+@media (min-width: 1024px) {
+  .cart-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* For tablets */
+@media (max-width: 1024px) {
+  .cart-container {
+    padding: 10px;
+    margin: 0 10px; /* Add margin for tablet */
+  }
+  
+  .cart-container table {
+    font-size: 14px; /* Slightly smaller text for tablets */
+  }
+
+  .cart-container img {
+    width: 40px; /* Smaller image size for tablets */
+    height: 40px;
+  }
+
+  .remove-button {
+    font-size: 18px; /* Smaller remove button text */
+  }
+
+  .proceed-button {
+    padding: 8px 16px; /* Adjust padding for tablets */
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+  .cart-container {
+    padding: 5px;
+    margin: 0 5px; /* Add margin for mobile */
+  }
+  
+  .cart-container table {
+    font-size: 12px; /* Smaller text for mobile */
+  }
+
+  .cart-container img {
+    width: 30px; /* Even smaller image size for mobile */
+    height: 30px;
+  }
+
+  .remove-button {
+    font-size: 16px; /* Smaller remove button text */
+  }
+
+  .cart-total-container {
+    padding: 15px; /* Less padding for mobile */
+  }
+
+  .proceed-button {
+    padding: 6px 12px; /* Adjust padding for mobile */
+  }
+}

@@ -1,0 +1,74 @@
+/* BSaddproduct.css */
+
+.add-product-container {
+  margin-top: -920px;
+  margin-left: 300px;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.form-group input[type="file"] {
+  margin-top: 5px;
+}
+
+.form-group img {
+  max-width: 15%;
+  max-height: 10%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  background-color: #1B3C73;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+p.error-message {
+  color: red;
+  margin-top: 10px;
+}
+@media (max-width: 1580px){
+.add-product-container {
+  margin-top: -700px;
+  margin-left: 300px;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+}

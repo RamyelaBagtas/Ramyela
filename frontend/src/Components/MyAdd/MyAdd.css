@@ -1,0 +1,66 @@
+/* src/CSS/MyAdd.css */
+.my-address-container {
+  max-width: 600px;
+  margin-top: -1350px;
+  margin-left: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px -2px black;
+  background-color: #f9f9f9;
+}
+
+.my-address-container h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #1B3C73;
+  margin-bottom: 20px;
+}
+
+.my-address-container p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.my-address-container .address-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.my-address-container .address-details p {
+  margin: 5px 0;
+}
+
+.my-address-container .address-details p strong {
+  color: #1B3C73;
+}
+
+.my-address-container .remove-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #1B3C73;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my-address-container .remove-button:hover {
+  background-color: white;
+  border: 1px solid #1B3C73;
+}
+@media (max-width: 1580px){
+.my-address-container {
+  max-width: 600px;
+  margin-top: -700px;
+  margin-left: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px -2px black;
+  background-color: #f9f9f9;
+}
+}

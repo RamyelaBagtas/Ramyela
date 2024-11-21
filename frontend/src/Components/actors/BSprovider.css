@@ -1,0 +1,74 @@
+/* Styles for the ProviderArchive component */
+.bsprovider-archive-container {
+    max-width: 1200px;
+    margin-top: -900px;
+    margin-left: 280px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bsprovider-archive-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .bsprovider-archive-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  .bsprovider-archive-container th, 
+  .bsprovider-archive-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bsprovider-archive-container th {
+    background-color: #007bff; /* Blue color for table headers */
+    color: #fff; /* White text color for contrast */
+  }
+  
+  .bsprovider-archive-container img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 4px;
+  }
+  
+  .bsprovider-archive-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bsprovider-archive-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bsprovider-archive-container .no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+  }
+  @media(max-width: 1580px){
+    .bsprovider-archive-container {
+      max-width: 1200px;
+      margin-top: -730px;
+      margin-left: 280px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  

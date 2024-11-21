@@ -1,0 +1,71 @@
+/* src/CSS/Address.css */
+
+.address-container {
+  padding: 20px 40px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 600px;
+  margin-top: -1350px;
+  margin-left: 300px;
+}
+
+.address-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1B3C73;
+  text-align: center;
+}
+
+.address-container .form-group {
+  margin-bottom: 15px;
+}
+
+.address-container .form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.address-container .form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.address-container .form-group input:focus {
+  border-color: #1B3C73;
+  outline: none;
+}
+
+.address-container button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #1B3C73;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.address-container button[type="submit"]:hover {
+  background-color: #16325C;
+}
+@media (max-width: 1580px){
+.address-container {
+  padding: 20px 40px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 600px;
+  margin-top: -700px;
+  margin-left: 300px;
+}
+}

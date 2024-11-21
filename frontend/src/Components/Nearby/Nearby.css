@@ -1,0 +1,41 @@
+/* General styles for provider-popup */
+.provider-popup {
+    background-color: white !important;
+    max-width: 200px; /* Default max width */
+    padding: 10px; /* Adjust padding as needed */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow */
+    border-radius: 8px; /* Optional rounded corners */
+    font-family: Arial, sans-serif; /* Font for the popup */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) { /* Tablet */
+    .provider-popup {
+        max-width: 180px; /* Slightly smaller on tablets */
+        padding: 8px; /* Reduced padding */
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .provider-popup {
+        max-width: 150px; /* Smaller max width for mobile */
+        padding: 6px; /* Further reduced padding */
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+}
+
+/* Optional styles for button inside the popup */
+.provider-popup button {
+    padding: 5px 8px; /* Padding for buttons */
+    border: none; /* Remove border */
+    background-color: #1B3C73; /* Background color for buttons */
+    color: white; /* Text color */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 12px; /* Button font size */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.provider-popup button:hover {
+    background-color: #89CFF0; /* Lighter color on hover */
+}

@@ -1,0 +1,33 @@
+/* Overlay styling for the order form */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensures it appears above all other content */
+  }
+  
+  .order-form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .order-form h2 {
+    margin-top: 0;
+  }
+  
+  .order-form button {
+    margin-top: 10px;
+    margin-right: 8px;
+  }
+  

@@ -1,0 +1,45 @@
+.button-container .management-button {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+    width: 220px;
+    height: 220px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: #1B3C73; /* Base color */
+    color: white; /* Text color */
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    text-align: center;
+    position: relative; /* Enable positioning for the image */
+}
+
+.button-container .management-button:hover {
+    background-color: white; /* Hover background */
+    border: 3px solid #1B3C73; /* Hover border */
+    transform: scale(1.05); /* Scale effect on hover */
+    color: black;
+}
+
+.button-container .management-button:focus {
+    outline: none; /* Remove focus outline */
+}
+
+.button-icon {
+    width: 100px; /* Set a width for the icon */
+    height: 100px; /* Set a height for the icon */
+    margin-bottom: 10px; /* Space between the image and text */
+}
+.background-container {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }

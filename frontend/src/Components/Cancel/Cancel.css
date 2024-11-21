@@ -1,0 +1,141 @@
+/* General container styling */
+.cancel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title styling */
+.cancel-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Button styling */
+.btn-all-orders {
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-all-orders:hover {
+    text-decoration: underline;
+    color: rgb(0, 116, 211);
+}
+
+/* Order summary styling */
+.order-summary {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary .order-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-summary h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.order-summary .product-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.order-summary .product-details .product-image {
+    width: 100px; /* Adjusted width for better display */
+    height: 100px; /* Adjusted height for better display */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.order-summary .product-info {
+    flex: 1;
+}
+
+.order-summary .product-info h3 {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.order-summary .product-info p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.order-summary .product-info p strong {
+    color: #333;
+}
+
+/* Styling for the loading state */
+.loading {
+    text-align: center;
+    padding: 50px 0;
+    color: #555;
+}
+
+/* Error notification styling */
+.error-message {
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.btn-shipped-orders {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-shipped-orders:hover {
+  text-decoration: underline rgb(0, 116, 211);
+  text-decoration-thickness: 10px;
+}
+
+/* Active state for the selected button */
+.btn-shipped-orders.active {
+  text-decoration: underline rgb(0, 116, 211);
+  text-decoration-thickness: 10px;
+}
+.proceed-buttonss {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #1B3C73;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.proceed-buttonss:hover {
+  background-color: white;
+  color: #1B3C73;
+  border: 1px solid #1B3C73;
+}

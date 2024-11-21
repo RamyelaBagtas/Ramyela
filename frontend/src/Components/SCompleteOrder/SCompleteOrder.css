@@ -1,0 +1,114 @@
+.scompleted-orders-container {
+  max-width: 1200px;
+  margin-top: -900px;
+  margin-left: 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scompleted-orders-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.scompleted-orders-container form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.scompleted-orders-container form label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.scompleted-orders-container form input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.scompleted-orders-container form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scompleted-orders-container form button:hover {
+  background-color: #0056b3;
+}
+
+.scompleted-orders-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.scompleted-orders-container ul li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.scompleted-orders-container ul li p {
+  margin: 0 10px;
+  flex: 1;
+}
+
+.scompleted-orders-container ul li .images {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.scompleted-orders-container .totall {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.inventory-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
